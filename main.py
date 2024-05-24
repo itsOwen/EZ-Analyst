@@ -153,7 +153,7 @@ if default_dataset or uploaded_file is not None:
     elif selected == "Data Preprocessing":
         data_preprocessing(data)
     elif selected == "Auto Analysis (BETA)":
-        auto_analysis(data, default_dataset)  # Pass the 'default_dataset' argument
+        auto_analysis(data, default_dataset)
 
 footer_content = """
 <footer>

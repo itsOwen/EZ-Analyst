@@ -5,7 +5,8 @@ from contextlib import redirect_stdout
 from fpdf import FPDF
 import os
 
-openai.api_key = "sk-proj-WzXdwjuo2NSISbf9ZoYaT3BlbkFJCX87s6xGyuP8QWBdls6g"
+#Your API Key here
+openai.api_key = "#"
 
 def perform_auto_analysis(data, default_dataset):
     with st.spinner("🤖 Generating auto analysis code..."):
@@ -13,7 +14,7 @@ def perform_auto_analysis(data, default_dataset):
         first_rows = data.head().to_string(index=False)
 
         if default_dataset:
-            file_name = "amazon_reviews.csv"  # Default dataset file name
+            file_name = "amazon_reviews.csv"
         else:
             file_name = uploaded_file.name
 
@@ -76,7 +77,7 @@ def auto_analysis(data, default_dataset):
             first_rows = data.head().to_string(index=False)
             
             if default_dataset:
-                file_name = "amazon_reviews.csv"  # Default dataset file name
+                file_name = "amazon_reviews.csv"
             else:
                 file_name = uploaded_file.name
             
