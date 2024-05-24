@@ -1,0 +1,17 @@
+pandas
+matplotlib
+seaborn
+scikit-learn
+openai
+fpdf
+streamlit
+streamlit-camera-input-live
+streamlit-card
+streamlit-embedcode
+streamlit-extras
+streamlit-faker
+streamlit-image-coordinates
+streamlit-keyup
+streamlit-option-menu
+streamlit-toggle-switch
+streamlit-vertical-slider
