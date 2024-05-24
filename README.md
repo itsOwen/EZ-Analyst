@@ -1,4 +1,6 @@
-# EZ-Analyst: Automated EDA and Analysis App
+# EZ-Analyst: Automated EDA and Data Analysis App
+
+![EZ-Analyst Logo](images/main.png)
 
 EZ-Analyst is a Streamlit-based application that streamlines the process of exploratory data analysis (EDA) and automates data analysis tasks. With its user-friendly interface and powerful features, EZ-Analyst makes it easy for data analysts and enthusiasts to gain insights from their datasets quickly. The tool also leverages Open-AI to improve data analysis and generate code and reports easily.
 
@@ -40,29 +42,24 @@ EZ-Analyst is a Streamlit-based application that streamlines the process of expl
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/ez-analyst.git
+   git clone https://github.com/itsOwen/EZ-Analyst.git
    ```
 
-2. Install the required dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-
-3. Set your OpenAI API key in the `auto_analysis.py` file:
+2. Set your OpenAI API key in the `auto_analysis.py` file:
    ```python
    openai.api_key = "YOUR_API_KEY"
    ```
 
-4. Run the Streamlit app:
+3. Run the Streamlit app:
    ```
    streamlit run main.py
    ```
 
-5. Access the app in your web browser at `http://localhost:8501`.
+4. Access the app in your web browser at `http://localhost:8501`.
 
-6. Upload your CSV file or use the default "amazon_reviews.csv" dataset.
+5. Upload your CSV file or use the default "amazon_reviews.csv" dataset.
 
-7. Explore the various features of the app, including data exploration, data preprocessing, and auto analysis.
+6. Explore the various features of the app, including data exploration, data preprocessing, and auto analysis.
 
 ## Dependencies
 
