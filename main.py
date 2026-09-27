@@ -160,13 +160,7 @@ footer_content = """
 <div>Created with ❤️ by Owen</div>
 <div>
     <a href="https://github.com/itsOwen" target="_blank">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="20" height="20">
-    </a>
-    <a href="https://github.com/itsOwen" target="_blank">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="20" height="20">
-    </a>
-    <a href="https://github.com/itsOwen" target="_blank">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" alt="Website" width="20" height="20">
     </a>
 </div>
 </footer>
